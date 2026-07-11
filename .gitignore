@@ -4,4 +4,5 @@ dist
 *.tsbuildinfo
 .env
 .env.*
-release/
+release/*
+!release/Quiz_1.0.0_aarch64.dmg
