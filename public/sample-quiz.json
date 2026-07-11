@@ -1,0 +1,29 @@
+{
+  "title": "React Context API",
+  "questions": [
+    {
+      "type": "quiz",
+      "question": "Context API is used for?",
+      "options": ["Routing", "Prop Drilling", "Global State", "Database"],
+      "answer": 2,
+      "explanation": "Context API is designed to share global state across the component tree without passing props through every intermediate component."
+    },
+    {
+      "type": "qna",
+      "question": "Explain Context API.",
+      "answer": "Context API allows sharing data across components without prop drilling."
+    },
+    {
+      "type": "quiz",
+      "question": "Which hook do you use to consume a Context value?",
+      "options": ["useState", "useContext", "useReducer", "useMemo"],
+      "answer": 1,
+      "explanation": "useContext reads the current value from a Context object created with React.createContext()."
+    },
+    {
+      "type": "qna",
+      "question": "When would you reach for Context instead of a state manager like Redux?",
+      "answer": "When state is relatively simple and mostly read in many places without complex update logic — Context avoids the extra dependency and boilerplate."
+    }
+  ]
+}
